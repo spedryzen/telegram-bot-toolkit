@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: telegram-bot-toolkit
+Version: 1.0.0
+Summary: Shared Telegram Bot formatting, MarkdownV2/HTML sanitization, message chunking, and financial UI card components
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+
+# Copyright (c) 2026 Ed Grant, Email: ed@edgrant.com, Phone: (951) 610-8817
+# Telegram Bot Toolkit (`telegram-bot-toolkit`)
+
+Unified presentation formatting, entity sanitization, and UI card engine for Telegram bots across the Antigravity ecosystem.
+
+## Features
+- **Entity Sanitization**: Safe escaping for Telegram MarkdownV2 (`escape_markdown`) and HTML (`escape_html`).
+- **Message Pagination**: Splits long text at clean line breaks and word boundaries without exceeding Telegram's 4,096-character limit (`chunk_message`).
+- **Visual Cards & Badges**:
+  - Range sliders: `make_slider(current, low, high, change_24h)`
+  - Momentum arrows: `get_momentum_arrows(change_24h)`
+  - Signal decorators: `format_signal(signal)` (`🟢 BUY`, `🔴 SELL`, `⚪ HOLD`)
+  - Volume trends: `format_volume(vol_curr, vol_avg)`
+  - Conviction scoring: `calculate_conviction_score(...)`
+  - Symbol cleaning: `clean_symbol(symbol)`
