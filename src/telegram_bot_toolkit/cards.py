@@ -144,10 +144,10 @@ def format_price_momentum(price: float, change_24h: Optional[float]) -> str:
         badge = f"[🔥 {dollar_str} | {change_24h:+.2f}%{arrow_part}]"
     elif change_24h >= 0.0:
         icon = "🟢"
-        badge = f"[{dollar_str} | {change_24h:+.2f}%{arrow_part}]"
+        badge = f"[{dollar_str} ▲ | {change_24h:+.2f}%{arrow_part}]"
     elif change_24h > -5.0:
         icon = "🔴"
-        badge = f"[{dollar_str} | {change_24h:+.2f}%{arrow_part}]"
+        badge = f"[{dollar_str} ▼ | {change_24h:+.2f}%{arrow_part}]"
     else:
         icon = "🔴"
         badge = f"[🩸 {dollar_str} | {change_24h:+.2f}%{arrow_part}]"
