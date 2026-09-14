@@ -1,4 +1,10 @@
 # CHANGELOG.md - telegram-bot-toolkit
+## [1.0.1] - 2026-09-14
+- **Timestamp**: 2026-09-14T04:24:56-0700 (PDT)
+- **Summary**: Consolidate fleet governance, automated process watchdog, and stress-tested risk simulation
+- **Reason**: Automated fleet version bump.
+- **Impact**: Release artifact ready for distribution.
+
 <!-- Copyright (c) 2026 Ed Grant, Email: ed@edgrant.com, Phone: (951) 610-8817 -->
 
 ## [0.1.1] - 2026-09-14 02:14:00 PDT
