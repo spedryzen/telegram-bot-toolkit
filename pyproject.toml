@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "telegram-bot-toolkit"
-version = "1.0.1"
+version = "1.1.0"
 description = "Shared Telegram Bot formatting, MarkdownV2/HTML sanitization, message chunking, and financial UI card components"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -20,4 +20,5 @@ dev = [
 where = ["src"]
 
 [tool.pytest.ini_options]
+testpaths = ["tests"]
 pythonpath = ["src"]

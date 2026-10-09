@@ -5,3 +5,5 @@ dist/
 build/
 .pytest_cache/
 .venv/
+# Graphify knowledge graph
+graphify-out/

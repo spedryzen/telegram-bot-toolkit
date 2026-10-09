@@ -1,5 +1,5 @@
 # Copyright (c) 2026 Ed Grant, Email: ed@edgrant.com, Phone: (951) 610-8817
-__version__ = "1.0.1"
+__version__ = "1.1.0"
 """
 Telegram Bot Toolkit.
 
